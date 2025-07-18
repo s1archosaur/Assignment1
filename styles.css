@@ -1,19 +1,16 @@
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -21,8 +18,8 @@
 
 .header-bg{
     background-image: url('../Assignment1/Assets/Hero-bg.png');
-    background-repeat: no-repeat;
-    
+    background-repeat: round;
+    padding-bottom: 152px;
 }
 
 .nav-div{
@@ -32,12 +29,12 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0px 150px;
     padding: 50px;
 }
 
-.h3-title{
+.h2-title{
     font-weight: 900px;
     font-size: 34px;
     margin: 0px;
@@ -69,10 +66,87 @@ nav{
     gap: 37px;
 }
 
+.trp-color{
+    color: #252432;
+}
+
 .banner-msg{
     font-size: 65px;
     font-weight: 700px;
     text-align: center;
-    color: #252432;
+    
 }
 
+.action{
+    display: flex;
+    gap: 220px;
+    margin: 116px 159px 116px 141px;
+    align-items: center;
+}
+
+.action-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 517px;
+}
+
+.action-h3{
+    font-weight: 700px;
+    font-size: 42px;
+    margin: 0px;
+}
+
+.action-para{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px;
+}
+
+.action-img{
+    border-radius: 48px;
+}
+
+.productive-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin: 0px 159px 137px 141px;
+}
+
+.pu-h3{
+    font-size: 38px;
+    font-weight: 700px;
+    margin: 0px;
+}
+
+.pu-list{
+    display: flex;
+    gap: 158px;
+}
+
+.list-deco{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.list-caps{
+    font-size: 80px;
+    font-weight: 700px;
+    color: #4E47FF;
+    margin: 0px;
+}
+
+.list-lows{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
