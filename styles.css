@@ -16,6 +16,10 @@
     "wdth" 100;
 }
 
+.bg{
+    background-color: rgb(245, 248, 255);
+}
+
 .header-bg{
     background-image: url('../Assignment1/Assets/Hero-bg.png');
     background-repeat: round;
@@ -149,4 +153,128 @@ nav{
     font-weight: 400px;
     color: rgba(0, 0, 0, 0.5);
     margin: 0px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 149px 137px 151px;
+}
+
+.rvw-h3{
+    font-size: 42px;
+    font-weight: 700px;
+}
+
+.rvw{
+    display: flex;
+    gap: 20px;
+}
+
+.rvw-cards{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: rgb(242, 237, 237);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 14px;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    max-height: 243px;
+    max-width: 366px;
+}
+
+.rvw-stars{
+    margin: 0px;
+    display: inline;
+    gap: 4px;
+    height: 20px;
+}
+
+.stars{
+    margin: 0px;
+}
+
+.rvw-para{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    width: 318.67px;
+    height: 81px;
+}
+
+.rvw-caps{
+    color: black;
+    font-size: 28px;
+    margin: 0px;
+}
+
+.rvw-lows{
+    font-size: 16px;
+    color: black;
+    margin: 0px;
+}
+
+.rvwr{
+    display: flex;
+    gap: 12px;
+}
+
+.rvwr-img{
+    border-radius: 9999px;
+    margin-bottom: 6px;
+}
+
+.rvwr-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+
+}
+
+.rvwr-name{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+.rvw-date{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.focus-better{
+    margin: 0px 149px 92.23px 151px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fb-header{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin: 0px;
+}
+
+.fb-text{
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.fb-img{
+    border-radius: 48px;
 }
