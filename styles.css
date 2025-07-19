@@ -278,3 +278,102 @@ nav{
 .fb-img{
     border-radius: 48px;
 }
+
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    padding: 71px 0px;
+    justify-content: space-between;
+    margin: 0px 150px 14px 150px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-text{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 19px;
+}
+
+.label-text{
+    font-size: 18px;
+    color: black;
+    font-weight: 500px;
+    margin: 0px;
+}
+
+.msg-area{
+    resize: none;
+    margin: 0px;
+    height: 135px;
+}
+
+.form-box{
+    margin-top: 10px;
+    padding: 20px 32px;
+    font-size: 20px;
+    width: 497px;
+}
+
+.form-submission{
+    width: 564px;
+    font-weight: 700px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    padding: 19px 101px;
+    background-color: #4E47FF;
+    color: white;
+    align-items: center;
+}
+
+.footer{
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 103px;
+}
+
+.h3-title{
+    font-weight: 900px;
+    font-size: 100px;
+    margin-top: 104px;
+    margin-bottom: 0px;
+}
+
+.footer-para{
+    color: #8987A1;
+    font-size: 18px;
+    text-align: center;
+    margin: 8px 0px 20px 0px;
+}
+
+.footnav{
+    display: flex;
+    gap: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footlist{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.footlist a{
+    text-decoration-line: none;
+    color: #8987A1;
+    margin: 0px;
+    padding: 0px;
+}
